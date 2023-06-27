@@ -24,14 +24,23 @@
 
 # 4. Make a hash to store a book's title, author, number of pages, and language. Then print each attribute on separate lines.
 
-books = {"title" => "World of Whales", "author" => "Rainn Wilson", "pages" => 101, "language" => "french"}
+# books = {"title" => "World of Whales", "author" => "Rainn Wilson", "pages" => 101, "language" => "french"}
 
-p books["title"]
-p books["author"]
-p books["pages"]
-p books["language"]
+# p books["title"]
+# p books["author"]
+# p books["pages"]
+# p books["language"]
 
 # 5. Make an array of hashes to store the title and author for 3 different books. Then print out the third book's author.
+
+books = [
+  {"title" => "ABCs of Candy", "author" => "Candyland"}, 
+  {"title" => "CDE", "author" => "Grammar"}, 
+  {"title" => "FGH", "author" => "this name"}
+ 
+]
+
+p books[2]
 
 # 6. Make a hash to store 3 different states and their captitals. Then add a new state and capital and print the hash to see the result.
 
